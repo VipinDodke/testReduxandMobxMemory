@@ -6,6 +6,8 @@ import {Pressable, Text, View} from 'react-native';
 const ITERATION_COUNT = 40000;
 let timerId: number | undefined;
 
+
+
 interface PerfTestProps {
   balanceState: BalanceState;
 }
